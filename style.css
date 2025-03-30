@@ -1,0 +1,123 @@
+/* Configuração geral do corpo da página */
+body {
+  background-color: #c7def3;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* personalização do cabeçalho */
+header {
+  background-color: #007bff;
+  color: black;
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 3px solid #0056b3;
+}
+/* Estilização do título dentro do cabeçalho */
+header h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+/* Estilização da navegação */
+#Navegação ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  background-color: #f0f8ff;
+}
+/* Estilo dos itens do menu */
+#Navegação ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+/* Links do menu */
+#Navegação ul li a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/* Efeito hover nos links do menu */
+#Navegação ul li a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+/* Estilização de imagens */
+img {
+  border: 2px solid #007bff;
+  margin: 10px;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/* Estilização do formulário */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #007bff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 3px solid #0056b3;
+}
+/* Estilização dos campos de entrada */
+form input,
+form select {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+/* Botão do formulário */
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+/* Efeito hover no botão */
+form button:hover {
+  background-color: #003f8f;
+}
+/* Estilização dos indicadores do carrossel */
+.carousel-indicators li {
+  background-color: #333;
+}
+/* Indicador ativo no carrossel */
+.carousel-indicators .active {
+  background-color: #007bff;
+}
+/* Estilização do rodapé */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+footer p {
+  margin: 10px 0;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+footer a:hover {
+  color: #007bff;
+}
+#Contato address {
+  font-style: italic;
+}
+#Endereco {
+  font-size: 0.9rem;
+  color: #ccc;
+}
