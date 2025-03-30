@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FM Market</title>
+    <!-- Adicionando o link do Bootstrap -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- link para o CSS-->
+    <link rel="stylesheet" href="/CSS/style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho da página -->
+    <header id="Cabeçalho" class="bg-primary text-white p-4">
+      <h1 id="TituloPrincipal" class="text-center">FM Market</h1>
+      <nav id="Navegação" class="navbar navbar-expand-lg navbar-light bg-light">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#frutas-e-verduras"
+                >Frutas e Verduras</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nao-pereciveis"
+                >Produtos Não Perecíveis</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#higiene">Higiene e Limpeza</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Corpo da página -->
+    <main id="Mercadorias">
+      <!-- Carrossel de imagens com Bootstrap -->
+      <section id="carousel" class="container mt-4">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="/maca.jpeg"
+                class="d-block w-75 mx-auto"
+                alt="Maçã vermelha"
+                title="Maca vermelha suculenta, perfeita para o seu lanche"
+
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="banana.jpg"
+                class="d-block w-75 mx-auto"
+                alt="Banana"
+                title="Fruta Rica em vitaminas"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="arroz.png"
+                class="d-block w-75 mx-auto"
+                alt="Arroz"
+                title="Graos branquinhos e soltos"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="feijao.jpg"
+                class="d-block w-75 mx-auto"
+                alt="Feijao"
+                title="Sabor e qualidade"
+                
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="detergente.jpg"
+                class="d-block w-75 mx-auto"
+                alt="Detergente"
+                title="Nunca mais tenha louça suja"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="papel-higienico.jpg"
+                class="d-block w-75 mx-auto"
+                alt="Papel higiênico de fibras de celulose natural"
+                title="Fibras de celulose natura"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <section id="frutas-e-verduras" class="container mt-4">
+        <h2>Frutas e Verduras</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <article class="Maca">
+              <p class="Preco">Maçã - R$ 15,00/kg</p>
+              <img
+                class="img-fluid"
+                src="maca.jpeg"
+                alt="Maçã vermelha"
+                title="Maca vermelha suculenta, perfeita para o seu lanche"
+
+              />
+            </article>
+          </div>
+          <div class="col-md-6">
+            <article class="banana">
+              <p class="Preco">Banana - R$ 9,00/kg</p>
+              <img
+                class="img-fluid"
+                src="banana.jpg"
+                alt="Banana"
+                title="Fruta Rica em vitaminas"
+              />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="nao-pereciveis" class="container mt-4">
+        <h2>Produtos Alimentícios Não Perecíveis</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <article>
+              <p class="Preco">Arroz - R$ 20,00/5kg</p>
+              <img
+                class="img-fluid"
+                src="arroz.png"
+                alt="Arroz"
+                title="Graos branquinhos e soltos"
+              />
+            </article>
+          </div>
+          <div class="col-md-6">
+            <article>
+              <p class="Preco">Feijão - R$ 10,00/kg</p>
+              <img
+                class="img-fluid"
+                src="feijao.jpg"
+                alt="Feijao"
+                title="Sabor e qualidade"
+
+              />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="higiene" class="container mt-4">
+        <h2>Produtos de Higiene e Limpeza</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <article class="detergente">
+              <p class="Preco">Detergente - R$ 3,00/unidade</p>
+              <img
+                class="img-fluid"
+                src="detergente.jpg"
+                alt="Detergente"
+                title="Nunca mais tenha louça suja"
+              />
+            </article>
+          </div>
+          <div class="col-md-6">
+            <article>
+              <p class="Preco">Papel Higiênico - R$ 12,00/pacote</p>
+              <img
+                class="img-fluid"
+                src="papel-higienico.jpg"
+                alt="papel-higienico"
+                title="Fibras de celulose natura"
+              />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos" class="container mt-4">
+        <h2>Serviços</h2>
+        <article>
+          <p class="retirada">
+            Retirada no Local - <span class="Preco">Gratuito</span><br />
+            Faça o seu pedido e venha retirar na loja a hora que quiser.
+          </p>
+        </article>
+        <article>
+          <p class="retirada">
+            Tele-entrega - <span class="Preco">R$ 10,00</span><br />
+            Faça o seu pedido e receba em casa, praticidade e agilidade sempre!
+          </p>
+        </article>
+      </section>
+
+      <!-- Formulário de cadastro do cliente -->
+      <form id="cadastroCliente" class="container mt-4">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" class="form-control" placeholder="Digite seu nome" required />
+        </div>
+      
+        <div class="form-group">
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="endereco" name="endereco" class="form-control" placeholder="Digite seu endereço" required />
+        </div>
+      
+        <div class="form-group">
+          <label for="cpf">CPF:</label>
+          <input type="number" id="cpf" name="cpf" class="form-control" placeholder="Digite seu CPF" required />
+        </div>
+      
+        <div class="form-group">
+          <label for="sexo">Sexo:</label>
+          <select id="sexo" name="sexo" class="form-control">
+            <option value="">Selecione</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+          </select>
+        </div>
+      
+        <div class="form-group">
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" class="form-control" placeholder="Digite seu telefone" required />
+        </div>
+      
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu e-mail" required />
+        </div>
+      
+        <div class="form-group">
+          <label for="retirada">Escolha o serviço:</label>
+          <select id="retirada" name="retirada" class="form-control">
+            <option value="retirada">Retirada no local</option>
+            <option value="entrega">Tele-entrega</option>
+          </select>
+        </div>
+      
+        <div class="form-group">
+          <label for="notificações">Deseja receber nossas notificações de promoções?</label>
+          <input type="checkbox" id="newsletter" name="newsletter" />
+        </div>
+      
+        <div class="form-group">
+          <label for="agendamento">Escolha a data e horário:</label>
+          <input type="datetime-local" id="agendamento" name="agendamento" class="form-control" required />
+        </div>
+      
+        <button type="submit" class="btn btn-success">Cadastrar</button>
+      </form>
+      
+
+    <!-- Rodapé -->
+    <footer class="bg-primary text-white text-center p-4">
+      <p>&copy; 2025 FM Market. Todos os direitos reservados.</p>
+      <p id="Direitos">
+        <a href="https://policies.google.com/privacy?hl=en"
+          >Politicas de privacidade</a
+        >
+      </p>
+      <article id="Contato">
+        <address>
+          <p>
+            <strong>Contato:</strong>
+            <a
+              href="mailto:felipe@FMmarket.com?subject=Vim do site do FMmarket!"
+            >
+              felipe@FMmarket.com
+            </a>
+            | Telefone: (51) 9876-5432
+          </p>
+          <p>
+            <strong>Redes Sociais:</strong>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+          </p>
+          <p id="Endereco">
+            <strong>Endereço:</strong> Av. Ipiranga, 6681 - Partenon, Porto
+            Alegre - RS, 90619-90
+          </p>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Incluindo o JS -->
+    <script src="/Script/script.js"></script>
+  </body>
+</html>
